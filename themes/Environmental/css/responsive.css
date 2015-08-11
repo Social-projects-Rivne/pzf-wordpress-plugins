@@ -1,0 +1,510 @@
+/*!
+ * Responsive
+*/
+
+@-ms-viewport  {
+	width: device-width;
+}
+
+@media (max-width: 767px) {
+	.top-header .logo a img {
+		height: auto;
+		max-width: 80%;
+		margin-top: 10px;
+	}
+
+	.page_info {
+		left: 20px;
+	}
+
+	.vc_6_8.border_right:before {
+		border: 0;
+	}
+
+	.map_container .infobox {
+		left: 10.7%;
+		width: 79%;
+	}
+
+	.vc_2_8.wpb_column {
+		width: 100%;
+	}
+
+	.vc_6_8.wpb_column {
+		width: 100%;
+	}
+
+	.vh_achievements .achievements_content {
+		width: 50%;
+		height: 210px;
+	}
+
+	.environmental-recentpostsplus.widget .news-item .post_container,
+	.wrapper .tribe-events-list-widget-events .entry-title,
+	.wrapper .tribe-events-list-widget-events .tribe-events-list-widget-text {
+		width: 75%;
+	}
+
+	.tribe-bar-collapse .tribe-bar-filters-inner > div {
+		width: 25% !important;
+	}
+
+	#tribe-bar-form .tribe-bar-submit input[type=submit] {
+		float: right;
+	}
+
+	.wrapper #tribe-events .tribe-events-loop .tribe-events-content {
+		padding-left: 21px;
+	}
+
+	.wrapper #tribe-events .tribe-events-loop .tribe-events-content {
+		padding: 0 15px 14px 15px;
+	}
+
+	.tribe-events-calendar td.tribe-events-present {
+		background-color: #ccc;
+	}
+
+	.tribe-events-calendar td.mobile-active,
+	#tribe-events-content .tribe-events-calendar .mobile-active:hover,
+	.tribe-events-calendar td.tribe-events-present.mobile-active {
+		background-color: #4be237;
+	}
+
+	.tribe-events-calendar .tribe-events-past.tribe-events-has-events:after {
+		background-color: #2fb9e7;
+	}
+
+	.top-menu-container,
+	.header_search {
+		display: none;
+	}
+
+	.top-header .menu-btn {
+		display: block;
+	}
+
+	.post-thumb-img-wrapper img {
+		width: 100%;
+		height: 100%;
+	}
+	.donations-thank-you-left {
+		width: 100%;
+	}
+	.sidebar-right {
+		clear: both;
+		padding: 0 30px !important;
+	}
+	.entry-content .open-blog-infobox,
+	.open-event-infobox,
+	body.single-animals_places .page_title {
+		width: 60%;
+	}
+	.open-donation-social,
+	.open-event-social,
+	.open-blog-social {
+		width: 40%;
+	}
+	.page-sidebar-no .image_wrapper.carousel li {
+		max-width: 765px;
+	}
+	.sidebar-right-pull .image_wrapper.carousel li {
+		max-width: 764px;
+	}
+	#tribe-events div.tribe-events-single-event-description {
+		padding: 17px 30px 0 30px;
+	}
+
+	body.tribe-is-responsive .sidebar-left {
+		padding: 20px 30px 0 30px !important;
+	}
+
+	.open-animals-info-container .animals-info-item {
+		width: 100%;
+	}
+
+	.open-animals-info-container {
+		left: -20px;
+	}
+
+	.post_slider_main_container {
+		width: 246px;
+	}
+
+	.vc_custom_1407984684482 .column_container {
+		padding-right: 0 !important;
+	}
+
+	.vh_achievements .vh_border_right {
+		display: none;
+	}
+
+	.wrapper .vc_6_8.wpb_column,
+	.wrapper .vc_2_8.wpb_column {
+		padding: 0;
+	}
+
+	.vc_row.wpb_row.colored_bg {
+		padding: 0;
+	}
+
+	.twitter_container li {
+		max-width: 340px;
+	}
+
+	body .wrapper ul.wpb_thumbnails-fluid li,
+	.animals-places-list li {
+		max-width: 49%;
+	}
+
+	/* PrettyPhoto mobile responsive */
+
+	.pp_pic_holder.pp_default {
+		width: 100% !important;
+		left: 0 !important;
+		overflow: hidden;
+	}
+
+	div.pp_default .pp_content_container .pp_left {
+		padding-left: 0 !important;
+	}
+
+	div.pp_default .pp_content_container .pp_right {
+		padding-right: 0 !important;
+	}
+
+	.pp_content {
+		width: 100% !important;
+		height: auto !important;
+	}
+	.pp_fade {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	a.pp_expand,
+	a.pp_contract,
+	.pp_gallery,
+	.pp_top,
+	.pp_bottom {
+		display: none !important;
+	}
+
+	.pp_hoverContainer {
+		display: block !important;
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.pp_hoverContainer .pp_next,
+	.pp_hoverContainer .pp_previous {
+		width: 50% !important;
+	}
+
+	#pp_full_res img {
+		width: 100% !important;
+		height: auto !important;
+	}
+
+	.pp_details {
+		width: 94% !important;
+		padding-left: 3%;
+		padding-right: 4%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: -2px !important;
+	}
+
+	a.pp_close {
+		right: 10px!important; top: 10px!important;
+	}
+
+
+}
+
+@media (max-width: 480px) {
+	.post_slider_right_controls {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	body .wrapper .event_slider_right_controls {
+		padding-bottom: 36px;
+	}
+
+	.tribe-bar-collapse .tribe-bar-filters-inner > div {
+		width: 33% !important;
+	}
+
+	.wrapper .comment_auth_email {
+		float: none;
+	}
+
+	.wrapper .comment-form-author #author,
+	.wrapper .comment-form-email #email {
+		max-width: none;
+		width: 100%;
+	}
+
+	.wrapper .comment-form-comment {
+		margin-left: 0 !important;
+	}
+
+	.wrapper .comment-form-email {
+		margin-bottom: 5px;
+	}
+
+	.donation-search {
+		width: 42%;
+	}
+
+	.sidebar-left-pull .donation-search,
+	.sidebar-left-pull .donation-type {
+		width: 40%;
+	}
+
+	.wrapper .entry-content .open-blog-infobox,
+	.wrapper .open-event-infobox,
+	body.single-animals_places .page_title {
+		width: 100% !important;
+	}
+
+	.open-donation-social,
+	.open-event-social,
+	.open-blog-social {
+		display: none;
+	}
+
+	.donations-open-button,
+	.donations-open-button .input-append input[type=submit] {
+		width: 100%;
+	}
+	.page-sidebar-no .image_wrapper.carousel li {
+		max-width: 478px !important;
+	}
+	.sidebar-right-pull .image_wrapper.carousel li {
+		max-width: 478px !important;
+	}
+
+	.post_slider_main_container {
+		width: 262px !important;
+	}
+
+	.vh_achievements .achievements_content {
+		width: 100%;
+		height: auto;
+		padding-top: 30px;
+	}
+
+	.colored_bg_img {
+		display: none;
+	}
+
+	.colored_bg_text {
+		padding: 0;
+	}
+
+	.tp-caption.post_slider_main {
+		top: 260px !important;
+	}
+
+	.post_slider_buttons {
+		display: none;
+	}
+
+	body .wrapper .top-header .logo {
+		max-width: 182px;
+	}
+}
+
+@media (max-width: 570px) {
+	.animal_slider_right_controls {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	.comment-form-author #author,
+	.comment-form-email #email {
+		max-width: 200px;
+	}
+
+	.wrapper .comment-form-comment {
+		margin-left: 205px;
+	}
+	.donations-thank-you-right a {
+		float: right;
+	}
+	.entry-content .open-blog-infobox,
+	body.single-animals_places .page_title {
+		width: 50%;
+	}
+	.open-donation-social,
+	.open-blog-social {
+		width: 50%;
+	}
+	.page-sidebar-no .image_wrapper.carousel li {
+		max-width: 568px;
+	}
+	.sidebar-right-pull .image_wrapper.carousel li {
+		max-width: 567px;
+	}
+
+	.open-animals-info-container {
+		width: 115%;
+	}
+
+	.event-details-container .event-details-item {
+		width: 100%;
+	}
+
+	.post_slider_main_container {
+		width: 399px;
+	}
+
+	.wrapper .post_slider_right_controls,
+	.wrapper .event_slider_controls,
+	.wrapper .animals_places_slider_controls {
+		top: 0;
+	}
+
+	body .wrapper ul.wpb_thumbnails-fluid li,
+	.animals-places-list li {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.vh_achievements .achievements_content {
+		width: 50%;
+		height: 210px;
+	}
+
+	.wrapper .newsletter-submit,
+	.search.widget .sb-search-submit {
+		font-size: 9px;
+		padding: 17px 5px;
+	}
+
+	.wrapper .newsletter-email,
+	.search.widget .sb-search-input {
+		padding: 13px 65px 13px 13px;
+	}
+
+	.environmental-recentpostsplus.widget .news-item .post_container,
+	.wrapper .tribe-events-list-widget-events .entry-title,
+	.wrapper .tribe-events-list-widget-events .tribe-events-list-widget-text {
+		width: 55px;
+	}
+
+	.wrapper .tribe-events-list-widget-events .tribe-events-list-widget-text {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.top-menu-container .header-menu li a,
+	.wrapper .top-menu-container .header-menu > li.current-menu-item a {
+		font-size: 13px;
+		padding: 20px 12px;
+	}
+	.donations-thank-you-left {
+		width: 100%;
+	}
+	.entry-content .open-blog-infobox,
+	.open-event-infobox,
+	body.single-animals_places .page_title {
+		width: 60%;
+	}
+	.open-donation-social,
+	.open-event-social,
+	.open-blog-social {
+		width: 40%;
+	}
+	.page-sidebar-no .image_wrapper.carousel li {
+		max-width: 976px;
+	}
+	.sidebar-right-pull .image_wrapper.carousel li {
+		max-width: 728px;
+	}
+	.open-animals-info-container {
+		left: -9px;
+	}
+
+	.post_slider_main_container {
+		width: 339px;
+	}
+
+	.colored_bg_img {
+		display: none;
+	}
+
+	.colored_bg_text {
+		padding: 0;
+	}
+	
+	body .wrapper ul.wpb_thumbnails-fluid li,
+	.animals-places-list li {
+		max-width: 49%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.footer_bg_tree {
+		display: block;
+	}
+
+	.environmental-recentpostsplus.widget .news-item .post_container {
+		width: 73%;
+	}
+
+	.wrapper .tribe-events-list-widget-events .entry-title,
+	.wrapper .tribe-events-list-widget-events .tribe-events-list-widget-text {
+		width: 73%;
+	}
+
+	.top-menu-container .header-menu li a {
+		font-size: 16px;
+	}
+
+	.header_search {
+		max-width: 18.5% !important;
+	}
+	body.page-template-template-donations-php .sidebar-left {
+		padding: 0 15px !important;
+		padding-top: 20px !important;
+	}
+	.open-animals-info-container {
+		left: -31px;
+	}
+
+	.upcoming_events .column_container,
+	.animals .column_container {
+		padding: 0 15px !important;
+	}
+
+	.archivements .vc_6_8.wpb_column,
+	.sponsors .vc_6_8.wpb_column,
+	.links .vc_6_8.wpb_column {
+		padding-left: 15px !important;
+	}
+
+	.archivements .vc_2_8.wpb_column,
+	.sponsors .vc_2_8.wpb_column,
+	.links .vc_2_8.wpb_column {
+		padding-right: 50px !important;
+	}
+
+	.wrapper .vc_2_8.tweet_main {
+		padding-right: 60px !important;
+	}
+
+	.vc_row.wpb_row.colored_bg {
+		padding: 0 15px !important;
+	}
+}
+
+@media (max-width: 1200px) {
+	.tp-caption.post_slider_main {
+		left: 30px !important;
+	}
+}

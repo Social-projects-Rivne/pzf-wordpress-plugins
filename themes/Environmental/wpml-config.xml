@@ -1,0 +1,137 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">animal_location</custom-field>
+        <custom-field action="translate">animal_habitat</custom-field>
+        <custom-field action="translate">animal_height</custom-field>
+        <custom-field action="translate">animal_name</custom-field>
+        <custom-field action="translate">animal_population</custom-field>
+        <custom-field action="translate">animal_weight</custom-field>
+        <custom-field action="translate">description</custom-field>
+        <custom-field action="ignore">kd_featured-image-2_animals_places_id</custom-field>
+        <custom-field action="ignore">kd_featured-image-2_donations_id</custom-field>
+        <custom-field action="ignore">kd_featured-image-2_tribe_events_id</custom-field>
+        <custom-field action="ignore">kd_featured-image-3_donations_id</custom-field>
+        <custom-field action="ignore">kd_featured-image-4_donations_id</custom-field>
+        <custom-field action="ignore">kd_featured-image-5_donations_id</custom-field>
+        <custom-field action="translate">keywords</custom-field>
+        <custom-field action="translate">layouts</custom-field>
+        <custom-field action="copy">sbg_selected_sidebar</custom-field>
+        <custom-field action="copy">sbg_selected_sidebar_replacement</custom-field>
+        <custom-field action="translate">slide_template</custom-field>
+        <custom-field action="translate">title</custom-field>
+        <custom-field action="translate">vc_teaser</custom-field>
+        <custom-field action="ignore">vh_map_lat</custom-field>
+        <custom-field action="ignore">vh_map_long</custom-field>
+        <custom-field action="ignore">vh_map_title</custom-field>
+        <custom-field action="translate">_additional_settings</custom-field>
+        <custom-field action="translate">_cms_nav_minihome</custom-field>
+        <custom-field action="translate">_cms_nav_section</custom-field>
+        <custom-field action="translate">_donations_so_far</custom-field>
+        <custom-field action="translate">_EventAuditTrail</custom-field>
+        <custom-field action="translate">_EventCost</custom-field>
+        <custom-field action="translate">_EventCurrencyPosition</custom-field>
+        <custom-field action="translate">_EventCurrencySymbol</custom-field>
+        <custom-field action="translate">_EventDuration</custom-field>
+        <custom-field action="translate">_EventEndDate</custom-field>
+        <custom-field action="translate">_EventOrganizerID</custom-field>
+        <custom-field action="translate">_EventOrigin</custom-field>
+        <custom-field action="translate">_EventShowMap</custom-field>
+        <custom-field action="translate">_EventShowMapLink</custom-field>
+        <custom-field action="translate">_EventStartDate</custom-field>
+        <custom-field action="translate">_EventURL</custom-field>
+        <custom-field action="translate">_EventVenueID</custom-field>
+        <custom-field action="translate">_form</custom-field>
+        <custom-field action="translate">_fundraisers</custom-field>
+        <custom-field action="translate">_how_many_donations_are_needed</custom-field>
+        <custom-field action="translate">_locale</custom-field>
+        <custom-field action="copy">_mail</custom-field>
+        <custom-field action="copy">_mail_2</custom-field>
+        <custom-field action="copy">_menu_item_classes</custom-field>
+        <custom-field action="copy">_menu_item_menu_item_parent</custom-field>
+        <custom-field action="copy">_menu_item_object</custom-field>
+        <custom-field action="copy">_menu_item_object_id</custom-field>
+        <custom-field action="copy">_menu_item_target</custom-field>
+        <custom-field action="copy">_menu_item_type</custom-field>
+        <custom-field action="copy">_menu_item_url</custom-field>
+        <custom-field action="copy">_menu_item_xfn</custom-field>
+        <custom-field action="translate">_messages</custom-field>
+        <custom-field action="copy">_OrganizerEmail</custom-field>
+        <custom-field action="translate">_OrganizerOrganizer</custom-field>
+        <custom-field action="translate">_OrganizerOrigin</custom-field>
+        <custom-field action="translate">_OrganizerPhone</custom-field>
+        <custom-field action="translate">_OrganizerWebsite</custom-field>
+        <custom-field action="ignore">_thumbnail_id</custom-field>
+        <custom-field action="ignore">_top_nav_excluded</custom-field>
+        <custom-field action="translate">_VenueAddress</custom-field>
+        <custom-field action="translate">_VenueCity</custom-field>
+        <custom-field action="translate">_VenueCountry</custom-field>
+        <custom-field action="translate">_VenueOrigin</custom-field>
+        <custom-field action="translate">_VenuePhone</custom-field>
+        <custom-field action="translate">_VenueProvince</custom-field>
+        <custom-field action="translate">_VenueState</custom-field>
+        <custom-field action="translate">_VenueStateProvince</custom-field>
+        <custom-field action="translate">_VenueURL</custom-field>
+        <custom-field action="translate">_VenueVenue</custom-field>
+        <custom-field action="translate">_VenueVenueID</custom-field>
+        <custom-field action="translate">_VenueZip</custom-field>
+        <custom-field action="ignore">_wpb_shortcodes_custom_css</custom-field>
+        <custom-field action="ignore">_wpb_vc_js_interface_version</custom-field>
+        <custom-field action="copy">_wpb_vc_js_status</custom-field>
+        <custom-field action="copy">_wp_attached_file</custom-field>
+        <custom-field action="translate">_wp_attachment_context</custom-field>
+        <custom-field action="copy">_wp_attachment_is_custom_background</custom-field>
+        <custom-field action="translate">_wp_trash_meta_status</custom-field>
+        <custom-field action="ignore">_wp_trash_meta_time</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">tribe_events</custom-type>
+        <custom-type translate="1">animals_places</custom-type>
+        <custom-type translate="1">donations</custom-type>
+        <custom-type translate="1">tribe_organizer</custom-type>
+        <custom-type translate="1">tribe_venue</custom-type>
+        <custom-type translate="1">wpcf7_contact_form</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">Format</taxonomy>
+        <taxonomy translate="1">vh_categories</taxonomy>
+        <taxonomy translate="1">vh_donations</taxonomy>
+        <taxonomy translate="1">tribe_events_cat</taxonomy>
+    </taxonomies>
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>    
+        <key name="icl_language_switcher_sidebar">0</key>  
+        <key name="icl_widget_title_show">0</key>
+        <key name="icl_lang_sel_type">dropdown</key>
+        <key name="icl_lso_link_empty">0</key>
+        <key name="icl_lso_flags">0</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+        <key name="icl_lang_sel_footer">0</key>
+        <key name="icl_post_availability">0</key>
+        <key name="icl_post_availability_position">below</key>
+        <key name="icl_post_availability_text">This post is also available in: %s</key>    
+    </language-switcher-settings>    
+</wpml-config>
+
+
