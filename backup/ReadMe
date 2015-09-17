@@ -1,0 +1,13 @@
+1. Зклеїти частинки файлу до купи:
+cat xaa xab xac xad xae xaf > pzfu.zip
+(Так як гітхаб приймає файли до 100М, тому бекап порізали на шматки).
+2. Розпакувати архів у відповідну теку на сервері, встановивши необхідні права.
+3. Залити дамп MySQL бази даних на сервер.
+4. Внести дані авторизації до БД в файл wp-config.php
+5. При зміні домену, зробити наступні зміни в базі даних:
+
+UPDATE wp_options SET option_value = REPLACE(option_value, 'http://test.simon.rv.ua', 'http://newsite') WHERE option_name = 'home' OR option_name = 'siteurl';
+
+UPDATE wp_posts SET guid = REPLACE(guid, 'http://test.simon.rv.ua', 'http://newsite');
+
+UPDATE wp_posts SET post_content = REPLACE(post_content, 'http://test.simon.rv.ua', 'http://newsite');
